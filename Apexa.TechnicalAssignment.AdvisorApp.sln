@@ -1,0 +1,95 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EBB8A3C8-3EEA-4F7F-B10F-84050DCAC1A4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Apexa.TechnicalAssignment.AdvisorApp.Domain", "Apexa.TechnicalAssignment.AdvisorApp.Domain\Apexa.TechnicalAssignment.AdvisorApp.Domain.csproj", "{D26B2168-D06E-4A61-B7A7-72A40F15CE12}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Apexa.TechnicalAssignment.AdvisorApp.Application", "Apexa.TechnicalAssignment.AdvisorApp.Application\Apexa.TechnicalAssignment.AdvisorApp.Application.csproj", "{8735D5E6-A66C-4441-B538-EAF61E40395C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Apexa.TechnicalAssignment.AdvisorApp.Infrastructure", "Apexa.TechnicalAssignment.AdvisorApp.Infrastructure\Apexa.TechnicalAssignment.AdvisorApp.Infrastructure.csproj", "{2C0C3E43-ADBF-4E37-B111-FDAED7CE8006}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Apexa.TechnicalAssignment.AdvisorApp.WebAPI", "Apexa.TechnicalAssignment.AdvisorApp.WebAPI\Apexa.TechnicalAssignment.AdvisorApp.WebAPI.csproj", "{8168B166-27EE-4C03-8434-EDC7BFCDACF5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{51536A24-A0C7-41A2-AE0C-34F03CF7348B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{C6ED6055-822D-4567-9CC5-C7DE49CF634E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External", "External", "{D1B6269F-9C80-4021-ACA8-FA47138FB4FA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Apexa.TechnicalAssignment.AdvisorApp.UnitTests", "Apexa.TechnicalAssignment.AdvisorApp.UnitTests\Apexa.TechnicalAssignment.AdvisorApp.UnitTests.csproj", "{B75CE962-D39F-43A4-BB20-2A85C30FA341}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Apexa.TechnicalAssignment.AdvisorApp.Presentation", "Apexa.TechnicalAssignment.AdvisorApp.Presentation\Apexa.TechnicalAssignment.AdvisorApp.Presentation.csproj", "{71472698-12D2-4177-B665-D909CC68395A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Apexa.TechnicalAssignment.AdvisorApp.FunctionalTests", "Apexa.TechnicalAssignment.AdvisorApp.FunctionalTests\Apexa.TechnicalAssignment.AdvisorApp.FunctionalTests.csproj", "{44DA2437-3A19-46B8-95CE-E4B9896A9B43}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Apexa.TechnicalAssignment.AdvisorApp.IntegrationTests", "Apexa.TechnicalAssignment.AdvisorApp.IntegrationTests\Apexa.TechnicalAssignment.AdvisorApp.IntegrationTests.csproj", "{7DEF799A-9ED7-4180-9C1E-D818E02B66D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{78BE6041-E8C6-4056-BE3F-21E6337274AB}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		Run-WebAPI.bat = Run-WebAPI.bat
+		Run-WebApi.sh = Run-WebApi.sh
+		..\..\..\OneDrive - Alithya\Desktop\Technical Assignment - 3 (2).pdf = ..\..\..\OneDrive - Alithya\Desktop\Technical Assignment - 3 (2).pdf
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D26B2168-D06E-4A61-B7A7-72A40F15CE12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D26B2168-D06E-4A61-B7A7-72A40F15CE12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D26B2168-D06E-4A61-B7A7-72A40F15CE12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D26B2168-D06E-4A61-B7A7-72A40F15CE12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8735D5E6-A66C-4441-B538-EAF61E40395C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8735D5E6-A66C-4441-B538-EAF61E40395C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8735D5E6-A66C-4441-B538-EAF61E40395C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8735D5E6-A66C-4441-B538-EAF61E40395C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C0C3E43-ADBF-4E37-B111-FDAED7CE8006}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C0C3E43-ADBF-4E37-B111-FDAED7CE8006}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C0C3E43-ADBF-4E37-B111-FDAED7CE8006}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C0C3E43-ADBF-4E37-B111-FDAED7CE8006}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8168B166-27EE-4C03-8434-EDC7BFCDACF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8168B166-27EE-4C03-8434-EDC7BFCDACF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8168B166-27EE-4C03-8434-EDC7BFCDACF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8168B166-27EE-4C03-8434-EDC7BFCDACF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B75CE962-D39F-43A4-BB20-2A85C30FA341}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B75CE962-D39F-43A4-BB20-2A85C30FA341}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B75CE962-D39F-43A4-BB20-2A85C30FA341}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B75CE962-D39F-43A4-BB20-2A85C30FA341}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71472698-12D2-4177-B665-D909CC68395A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71472698-12D2-4177-B665-D909CC68395A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71472698-12D2-4177-B665-D909CC68395A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71472698-12D2-4177-B665-D909CC68395A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44DA2437-3A19-46B8-95CE-E4B9896A9B43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44DA2437-3A19-46B8-95CE-E4B9896A9B43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44DA2437-3A19-46B8-95CE-E4B9896A9B43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44DA2437-3A19-46B8-95CE-E4B9896A9B43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DEF799A-9ED7-4180-9C1E-D818E02B66D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DEF799A-9ED7-4180-9C1E-D818E02B66D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DEF799A-9ED7-4180-9C1E-D818E02B66D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DEF799A-9ED7-4180-9C1E-D818E02B66D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D26B2168-D06E-4A61-B7A7-72A40F15CE12} = {C6ED6055-822D-4567-9CC5-C7DE49CF634E}
+		{8735D5E6-A66C-4441-B538-EAF61E40395C} = {C6ED6055-822D-4567-9CC5-C7DE49CF634E}
+		{2C0C3E43-ADBF-4E37-B111-FDAED7CE8006} = {D1B6269F-9C80-4021-ACA8-FA47138FB4FA}
+		{8168B166-27EE-4C03-8434-EDC7BFCDACF5} = {EBB8A3C8-3EEA-4F7F-B10F-84050DCAC1A4}
+		{C6ED6055-822D-4567-9CC5-C7DE49CF634E} = {EBB8A3C8-3EEA-4F7F-B10F-84050DCAC1A4}
+		{D1B6269F-9C80-4021-ACA8-FA47138FB4FA} = {EBB8A3C8-3EEA-4F7F-B10F-84050DCAC1A4}
+		{B75CE962-D39F-43A4-BB20-2A85C30FA341} = {51536A24-A0C7-41A2-AE0C-34F03CF7348B}
+		{71472698-12D2-4177-B665-D909CC68395A} = {D1B6269F-9C80-4021-ACA8-FA47138FB4FA}
+		{44DA2437-3A19-46B8-95CE-E4B9896A9B43} = {51536A24-A0C7-41A2-AE0C-34F03CF7348B}
+		{7DEF799A-9ED7-4180-9C1E-D818E02B66D0} = {51536A24-A0C7-41A2-AE0C-34F03CF7348B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E508224-4C4C-4D6B-A9CC-D7D547498856}
+	EndGlobalSection
+EndGlobal
